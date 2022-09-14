@@ -6,7 +6,7 @@ int input()
   scanf("%d",&a);
   return a;
 }
-int add(int a,intb b)
+int add(int a,int b)
 {
   int sum;
   sum = a+b;
