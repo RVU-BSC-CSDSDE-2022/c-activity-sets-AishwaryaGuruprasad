@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 float input()
 {
   float n;
   printf("Enter the number\n");
-  scanf("%d",&n);
+  scanf("%f",&n);
   return n;
+  
 }
 float square_root(float n)
 {
@@ -16,7 +17,7 @@ float square_root(float n)
 }
 void output(float n, float sqrroot)
 {
-  printf("The squareroot of %d is %d ", n, sqrroot);
+  printf("The squareroot of %f is %f ", n, sqrroot);
 }
 float main()
 {
