@@ -6,7 +6,6 @@ printf("Enter n\n");
 	scanf("%d",&n);
 	return n;
 }
-
 int sum_n_nos(int n)
 {
 	int sum = 0;
@@ -14,14 +13,12 @@ int sum_n_nos(int n)
 		sum =sum+i;
 	return sum;
 }
-
 void output(int n, int sum)
 {
 	for( int i=1; i<n; i++) 
 		printf("%d + ",i);
 	printf("%d = %d",n,sum);
 }
-
 int main()
 {
 	int n = input_n();

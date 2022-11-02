@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int input_array_size()
 {  int n;
   printf("Enter the numbers of variables you wish to find the sum of:");
@@ -21,9 +20,10 @@ int sum_n_array(int n, int a[n])
 }
 void output(int n, int a[n],int sum)
 {
-  printf("The sum of the numbers of the array of size %d is %d",n,sum);
-  for(int i=0;i<=n;i++)
- { printf("%d",a[i]);}
+  for(int i=0;i<n;i++)
+ { 
+  printf("%d+",a[i]);}
+  printf("is equal to %d", sum);
   }
 
 int main()

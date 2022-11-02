@@ -241,7 +241,8 @@ The sum of 2+3i and 4+5i is 6+8i
 
 ***Function Declarations***
 ```c
-struct _complex {
+struct _complex 
+{
 	float real,imaginary;
 };
 typedef struct _complex Complex;
