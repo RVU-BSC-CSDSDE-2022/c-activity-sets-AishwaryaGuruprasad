@@ -15,11 +15,7 @@ void input_camel_details(float *radius,float *height,float *lenght)
   float find_weight(float radius,float height,float lenght)
   { //weight = pi * stomach_radius^3 * sqrt(height * length)`
     float weight;
-    int a,b,c;
-    a= pow(radius,3);
-    b= height*lenght;
-    c= sqrt(b);
-    weight= 3.14*a*c;
+    weight= 3.14*(pow(radius,3))* (sqrt(height*lenght));
     return weight;
     
   }
