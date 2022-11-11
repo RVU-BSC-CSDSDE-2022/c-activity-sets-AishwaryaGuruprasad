@@ -34,9 +34,9 @@ void output(float radius, float height, float length, int mood)
 
 int main()
   {
-    float e,f,g,h;
-    input_camel_details(&e,&f,&g);
-    h = find_mood(e,f,g);
-    output(e,f,g,h);
+    float p,q,r,s;
+    input_camel_details(&p,&q,&r);
+    h = find_mood(p,q,r);
+    output(p,q,r,s);
     return 0;
   }
