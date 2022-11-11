@@ -22,13 +22,7 @@ Camel input()
 }
 void find_weight(Camel *c) 
 {
-   
-  
-    int a,b,d;
-    a= pow(c->radius,3);
-    b= c->height*c->length;
-    d= sqrt(b);
-    c->weight= 3.14*a*d;
+   c->weight= 3.14*( pow(c->radius,3))*(sqrt(c->height*c->length));
    
 }
 void output(Camel c)
