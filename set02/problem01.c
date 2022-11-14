@@ -34,5 +34,10 @@ void output(Point a, Point b, float distance)
 }
 int main()
 {
- 
+ Point e,f;
+  float g;
+  e= input();
+  f= input();
+  g=dist(e,f);
+ output(e,f,g);
 }
