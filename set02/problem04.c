@@ -14,13 +14,12 @@ void input_camel_details(float *radius,float *height,float *lenght)
 int find_mood(float radius, float height, float length)
 { int mood;
   if(radius<height && radius<length)
-    mood = -1;
+    {mood = -1;}
   else if(height<radius && height<length)
-    mood = 0;
+    {mood = 0;}
   else if(length<radius && length<height)
-    mood = 1;
-  else 
-    printf("Wrong Input");
+    {mood = 1;}
+  return mood;
 }
 void output(float radius, float height, float length, int mood)
 {
@@ -34,9 +33,9 @@ void output(float radius, float height, float length, int mood)
 
 int main()
   {
-    float p,q,r,s;
-    input_camel_details(&p,&q,&r);
-    h = find_mood(p,q,r);
-    output(p,q,r,s);
+    float r,h,l,m;
+    input_camel_details(&r,&h,&l);
+    m = find_mood(r,h,l);
+    output(r,h,l,m);
     return 0;
   }

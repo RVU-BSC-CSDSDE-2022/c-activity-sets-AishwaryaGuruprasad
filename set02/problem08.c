@@ -1,7 +1,10 @@
 #inculde <stdio.h>
-typedef struct _camel {
+typedef struct _camel 
+{
     float radius, height, length, weight;
-} Camel;
+} 
+Camel;
+
 void input(int n, Camel c[n], float *truck_weight)
 {
   
