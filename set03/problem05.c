@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int input()
 {
     int a;
@@ -7,13 +6,9 @@ int input()
     scanf("%d",&a);
     return a;
 }
-
 int find_gcd(int a, int b)
-{
-    int i, min, hcf=1;
-    min = (a<b) ? a : b;
-
-    for(i=1; i<=min; i++)
+{  int hcf;
+    for(i=1; i<=a&& i<=b; i++)
     {
         if(a%i==0 && b%i==0)
         {
@@ -22,12 +17,10 @@ int find_gcd(int a, int b)
     }
     return hcf;
 }
-
 void output(int a, int b, int gcd)
 {
     printf("HCF of %d and %d = %d\n", a, b, gcd);
 }
-
 int main()
 {
     int num1, num2,hcf;
