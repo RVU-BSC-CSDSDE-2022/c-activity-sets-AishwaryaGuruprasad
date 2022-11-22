@@ -34,8 +34,8 @@ void output(int n, int flag)
 
 int main()
 {
-    int n,flag;
-    n=input();
+    int num,flag;
+    num=input();
     flag=is_composite(n);
     output(n,flag);
     return 0;
