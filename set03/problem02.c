@@ -30,10 +30,10 @@ void output(int s1, int s2, int s3, int isscalene)
 
 int main()
 {
-    int s1,s2,s3,isscalene;
-  s1=input();
-  s2=input();
-  s3=input();
+    int a,b,c,isscalene;
+  a=input();
+  b=input();
+  c=input();
   isscalene=find(s1,s2,s3);
   output(s1,s2,s3,isscalene);
   return 0;
