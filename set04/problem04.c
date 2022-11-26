@@ -1,12 +1,10 @@
 #include<stdio.h>
-
 int input()
 { int n ;
  printf("Enter n:");
  scanf("%d",&n); 
  return n;
 }
-
 int find_fibo(int n)
 {
     int t1,t2,fibo,i;
@@ -19,12 +17,10 @@ int find_fibo(int n)
     }
   return fibo;
 }
-
 void output(int fibo)
 {
 printf("%d",fibo);
 }
-
 int main()
 {
   int n,fibo;
