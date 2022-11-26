@@ -32,9 +32,9 @@ void output(float x1, float y1, float x2, float y2, float distance)
 int main()
 {
  float a,b,c,d;
-  float g;
+  float final;
   input(&a,&b,&c,&d);
   
-  g= find_distance(a,b,c,d);
- output(a,b,c,d,g);
+  final= find_distance(a,b,c,d);
+ output(a,b,c,d,final);
 }
