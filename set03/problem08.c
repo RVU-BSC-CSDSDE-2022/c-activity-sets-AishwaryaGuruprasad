@@ -22,16 +22,20 @@ Triangle input_triangle()
 void input_n_triangles(int n, Triangle t[n])
 {
   for(int i=0;i<n;i++)
-  {t[i] = input_triangle();}
+  {
+    t[i] = input_triangle();
+  }
 }
 void find_area(Traingle *t)
 {
-  t.area=(t.base*t.height)/2;
+  t->area=(t->base*t->height)/2;
 }
 void find_n_areas(int n, Triangle t[n])
 {
   for(int i=0;i<n;i++)
-  {t[i] = input_triangle();}
+  {
+    find_area(&t[i]);
+  }
 }
 Triangle find_smallest_triangle(int n, Triangle t[n])
 {

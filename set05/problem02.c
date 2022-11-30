@@ -37,8 +37,7 @@ int smallest(Fraction *f1, Fraction *f2, Fraction *f3)
   {
       printf("Error");
   }
-  
-  printf("%d",result);
+   printf("%d",result);
   return result;
 }
 int main()
