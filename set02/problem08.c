@@ -5,7 +5,6 @@ typedef struct _camel
     float radius, height, length, weight;
 } 
 Camel;
-
 int input_n()
 {
   int n;
@@ -13,7 +12,6 @@ int input_n()
   scanf("%d\n",&n);
   return n;
 }
-
 Camel input_camel()
 { Camel c;
   printf("Enter the radius\n");
@@ -26,8 +24,6 @@ Camel input_camel()
   scanf("%f",&c.length);
   return c;
 }
-void input_n_camels
-
 void input(int n, Camel c[n], float *truck_weight)
 {
   for(int i=0;i<n;i++)

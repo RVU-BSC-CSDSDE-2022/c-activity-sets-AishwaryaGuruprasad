@@ -23,7 +23,7 @@ void output(int a, int b, int gcd)
 }
 int main()
 {
-    int num1, num2,hcf;
+    int num1,num2,hcf; 
     num1=input();
     num2=input();
     hcf=find_gcd(num1,num2);

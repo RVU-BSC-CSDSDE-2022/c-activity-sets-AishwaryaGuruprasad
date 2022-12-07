@@ -7,7 +7,6 @@ int input()
     scanf ("%d",&n);
     return n;
 }
-
 int is_composite(int n)
 {
     int i,c=0,flag;
