@@ -20,7 +20,7 @@ Fraction input_fraction()
 }
 void input_n_fractions(int n, Fraction f[n])
 {
-  for(int i=0;i<n;i++)
+  for(int i=1;i<=n;i++)
     f[i]=input_fraction();
 }
 int find_gcd(int a, int b)
@@ -38,12 +38,16 @@ Fraction add_fractions(Fraction f1, Fraction f2)
 {  Fraction sum;
   sum.num = (f1.num*f2.den)+(f2.num*f1.den);
   sum.den = f1.den*f2.den;
+  int hcf;
+    hcf=find_gcd(sum.num,sum.den);
+    sum.num/=hcf;
+    sum.den/=hcf;
   return sum;
 }
 Fraction add_n_fractions(int n, Fraction f[n])
 { Fraction result;
   for(int i=0;i<n;i++)
-   result = 
+  
 }
 void output(Fraction sum)
 {
