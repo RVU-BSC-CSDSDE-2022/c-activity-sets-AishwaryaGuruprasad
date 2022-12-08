@@ -12,7 +12,7 @@ int count_words(char *string)
   while (space != NULL) 
   {
     no_words++;
-    space = strtok(NULL, " ");
+    space = NULL;
   }
 
   return no_words;
